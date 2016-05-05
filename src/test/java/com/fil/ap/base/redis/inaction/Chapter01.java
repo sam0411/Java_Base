@@ -17,12 +17,15 @@ public class Chapter01 {
         Jedis conn = new Jedis("localhost");
         conn.select(15);
 
-        String articleId = postArticle(
-            conn, "username", "A title", "http://www.google.com");
+        String articleId = postArticle(conn, "username", "A title", "http://www.google.com");
+        
         System.out.println("We posted a new article with id: " + articleId);
         System.out.println("Its HASH looks like:");
+        
         Map<String,String> articleData = conn.hgetAll("article:" + articleId);
+        
         for (Map.Entry<String,String> entry : articleData.entrySet()){
+        	
             System.out.println("  " + entry.getKey() + ": " + entry.getValue());
         }
 
