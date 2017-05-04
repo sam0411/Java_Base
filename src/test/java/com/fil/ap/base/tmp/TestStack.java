@@ -12,7 +12,7 @@ public class TestStack {
 	@Test
 	public void testStack() {
 		
-		Stack<String> stack = new Stack<>();
+		Stack<String> stack = new Stack<String>();
 		
 		stack.push("item_1");
 		stack.push("item_2");
@@ -31,7 +31,7 @@ public class TestStack {
 	@Test
 	public void testArrayList() {
 		
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<String>();
 		
 
 	}
