@@ -1,8 +1,6 @@
 package com.fil.ap.base.tmp;
 
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Stack;
 
 import org.junit.Test;
@@ -26,13 +24,5 @@ public class TestStack {
 			System.out.println(msg);
 		}
 		
-	}
-	
-	@Test
-	public void testArrayList() {
-		
-		List<String> list = new ArrayList<String>();
-		
-
 	}
 }

@@ -8,11 +8,11 @@ public class TestExceptionStack {
 	public static void main(String args[]) {
 		
 		try{
-		String source = "dfdfd888";
-		
-		String target = new String(source.getBytes(), "KKOO");
-		
-		System.out.println(target);
+			String source = "dfdfd888";
+			
+			String target = new String(source.getBytes(), "KKOO");
+			
+			System.out.println(target);
 		} catch(Exception e) {
 			
 			Long timeMilli = System.currentTimeMillis();
