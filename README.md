@@ -1,6 +1,9 @@
 # Java Core
 
+
 test02
+test01
+
 * Thread & Lock & Synchronized
 	* > Synchronized
 		* >> for normal method->lock 'this'
